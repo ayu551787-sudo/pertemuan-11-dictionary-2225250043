@@ -1,0 +1,7 @@
+data = {"nama": "Ayu", "nilai": 85}
+data["kelas"] = "B"
+data["nilai"] = 90
+print(data)
+
+data.pop("kelas")
+print(data)
